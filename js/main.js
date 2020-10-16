@@ -45,8 +45,34 @@ for (var count = 0; count <= 5; count++) {
 	alert(count);
 };
 */
-
+/*
 var d = new Date();
 alert(d.getMonth()+1);
 alert(d.getMinutes());
 alert(d.getHours());
+*/
+/*
+function soma(n1, n2){
+	return n2 + n1;
+}
+
+function setReplace(frase, nome, novo_nome) {
+	return frase.replace(nome, novo_nome);
+	// body...
+}
+*/
+
+function clicou(){
+	document.getElementById("agradecimento").innerHTML ="Obrigado por clicar";
+	alert("Obrigado por clicar");
+}
+
+function redirecionar(){
+	window.open("https://www.facebook.com/")
+	window.location.href = "https://www.facebook.com/";
+}
+
+
+function funcaoChange(elemento){
+	console.log(elemento.value);
+}
